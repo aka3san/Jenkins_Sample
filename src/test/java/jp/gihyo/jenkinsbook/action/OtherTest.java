@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.junit.runner.JUnitCore;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-
+//コメント
 public class OtherTest {
 
 	public static void main(String[] args) {
