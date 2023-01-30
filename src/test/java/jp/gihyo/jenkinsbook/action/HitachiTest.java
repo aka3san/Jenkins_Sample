@@ -12,7 +12,7 @@ import org.junit.runner.JUnitCore;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-public class SampleActionTest {
+public class HitachiTest {
 
 	public static void main(String[] args) {
 		JUnitCore.main(SampleActionTest.class.getName());
