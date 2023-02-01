@@ -30,7 +30,7 @@ public class OtherTest {
 		boolean result = action.checkParameter(request);
 		verify(request);
 
-		assertEquals(false, result);
+		assertEquals(true, result);
 	}
 
 	@Test
