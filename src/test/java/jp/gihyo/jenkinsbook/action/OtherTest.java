@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.junit.runner.JUnitCore;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-//コメント
+//コメントcomment
 public class OtherTest {
 
 	public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class OtherTest {
 		boolean result = action.checkParameter(request);
 		verify(request);
 
-		assertEquals(true, result);
+		assertEquals(false, result);
 	}
 
 	@Test
